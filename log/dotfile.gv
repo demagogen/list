@@ -1,0 +1,111 @@
+digraph G                         
+{bgcolor="#696969" rankdir = TB 
+splines = ortho;                  
+edge[minlen = 3,                  
+penwidth = 2;                     
+color = blue];                  
+
+Info[shape=record,     
+fillcolor="grey",    
+width=0.2,             
+style="filled",      
+label=" {Capacity: 10 
+| Size: 5             
+| Free: 1             
+| Front: 1            
+| Back: 1}"]       
+
+{rank = max;         
+node0[shape=record,  
+width=0.2,           
+style="filled",    
+fillcolor="pink"   
+,label="            
+{id: ЗИРО            
+| value: НУЛЛ        
+| next: 1           
+| prev: 1}"]}    
+
+{rank = same;
+node1[shape=record, 
+width=0.2,           
+style="filled",    
+fillcolor="green", 
+label=" {id: 1     
+| value: 2000          
+| next: 1           
+| prev: 1}"]     
+
+node2[shape=record,         
+width=0.2, style="filled", 
+fillcolor="grey",           
+label=" {id: 2             
+| value: POISON                  
+| next: 3                   
+| prev: -1}"]             
+
+node3[shape=record, 
+width=0.2,           
+style="filled",    
+fillcolor="green", 
+label=" {id: 3     
+| value: 0          
+| next: 4           
+| prev: 1}"]     
+
+node4[shape=record,         
+width=0.2, style="filled", 
+fillcolor="grey",           
+label=" {id: 4             
+| value: POISON                  
+| next: 5                   
+| prev: -1}"]             
+
+node5[shape=record,         
+width=0.2, style="filled", 
+fillcolor="grey",           
+label=" {id: 5             
+| value: POISON                  
+| next: 6                   
+| prev: -1}"]             
+
+node6[shape=record,         
+width=0.2, style="filled", 
+fillcolor="grey",           
+label=" {id: 6             
+| value: POISON                  
+| next: 7                   
+| prev: -1}"]             
+
+node7[shape=record,         
+width=0.2, style="filled", 
+fillcolor="grey",           
+label=" {id: 7             
+| value: POISON                  
+| next: 8                   
+| prev: -1}"]             
+
+node8[shape=record,         
+width=0.2, style="filled", 
+fillcolor="grey",           
+label=" {id: 8             
+| value: POISON                  
+| next: 9                   
+| prev: -1}"]             
+
+node9[shape=record,         
+width=0.2, style="filled", 
+fillcolor="grey",           
+label=" {id: 9             
+| value: POISON                  
+| next: 0                   
+| prev: -1}"]             
+
+}
+Free[color=orange,  style=filled]Front[color=orange, style=filled]Back[color=orange,  style=filled]Free->node1
+Front->node1
+Back->node1
+
+edge[color=darkgreen, constraint = true]
+
+}

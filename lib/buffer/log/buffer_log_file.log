@@ -1,0 +1,23 @@
+Buffer dump   
+
+Buffer size: 0 
+Buffer argue: 0
+Buffer size: 10 
+
+Print buffer
+
+	buffer cell			  hex		  bin
+	-------------------------------------
+	| buffer[  0] =        0|	       0|
+	| buffer[  1] =        0|	       0|
+	| buffer[  2] =        0|	       0|
+	| buffer[  3] =        0|	       0|
+	| buffer[  4] =        0|	       0|
+	| buffer[  5] =        0|	       0|
+	| buffer[  6] =        0|	       0|
+	| buffer[  7] =        0|	       0|
+	| buffer[  8] =        a|	    1010|
+	| buffer[  9] =        0|	       0|
+	-------------------------------------
+
+end buffer dump
